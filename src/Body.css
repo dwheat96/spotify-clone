@@ -8,3 +8,31 @@
     background: linear-gradient(transparent, rgba(0, 0, 0, 1));
     background-color: rgb(81,24,64);
   }
+
+  .body_info {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+  }
+
+  .body_infoText {
+    flex: 1;
+  }
+
+  .body_infoText > h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  .body_infoText > p {
+    font-size: 14;
+  }
+
+  .body_info > img {
+    height: 20vw;
+    max-height: 232px;
+    max-width: 232px;
+    object-fit: contain;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+  }
