@@ -12,6 +12,9 @@ const scopes = [
     "user-read-playback-state",
     "user-top-read",
     "user-modify-playback-state",
+    "playlist-read-private",
+    "playlist-read-collaborative",
+    "user-library-read",
 ];
 
 export const getTokenFromResponse = () => {
